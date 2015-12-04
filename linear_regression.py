@@ -106,3 +106,5 @@ f = model.fit()
 
  # Output the results summary
 f.summary()
+
+loansData.to_csv('loansData_clean.csv', header=True, index=False)
